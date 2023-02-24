@@ -10,7 +10,7 @@
 
     - name: copy war from Jenkins to target host
       copy:
-        src: /var/lib/jenkins/workspace/Tristan-Deploy-on-Container-using-Ansible/webapp/target/webapp.war
+        src: /var/lib/jenkins/workspace/Tristan-Deploy-on-Container-Using-Ansible/webapp/target/webapp.war
         dest: /opt/docker/tristan
 
     - name: stop current container
